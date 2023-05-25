@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texth6kart {
+    background-color: #FFC107;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.card {
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.hero {
+    z-index: 2;
+    background-image: url(style.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.hero1 {
+    z-index: 2;
+    background-image: url(portbaku.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(6, 6, 6, 0.5);
+}
+
+.image .img {
+    transition: 0.4s;
+}
+
+.image:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.texth6kart {
+    background-color: #FFC107;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: 0.4s;
+    letter-spacing: 2px;
+}
+.leftside,
+.rightside {
+    width: 50%;
+}
+
+.item1 {
+    position: relative;
+}
+
+.nikesozler {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media(max-width:550px) {
+    .card {
+        width: 100%;
+        height: 200px;
+    }
+
+    .rightside,
+    .leftside {
+        width: 100%;
+    }
+
+    .item1>img,
+    .item2>img {
+        width: 100%;
+    }
+
+    iframe {
+        height: 200px;
+    }
+}
+.nav-link {
+    font-family: 'Arvo', serif;
+}
+.nav-link:hover{
+    text-decoration: underline 3px  ;
+}
+.slide>img {
+    width: 100px;
+    height: 100px;
+    animation: scroll 6s linear infinite;
+  }
+  
+  .slide-track {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
+  }
+  
+  .slider1 {
+    margin-top: 70px;
+    background-color: whitesmoke;
+    padding: 8em 2em;
+  }
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }
