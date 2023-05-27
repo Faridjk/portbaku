@@ -137,3 +137,12 @@
     0% {transform: translateX(0);}
     100% {transform: translatex(-1000%)}
   }
+
+  .centerelemek{
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .centerelemek{
+        text-align: start;
+      }
+  }
