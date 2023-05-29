@@ -130,7 +130,7 @@
   .slider1 {
     margin-top: 70px;
     background-color: whitesmoke;
-    padding: 8em 2em;
+    padding: 8em 0;
   }
   
   @keyframes scroll {
